@@ -1,0 +1,39 @@
+# Ignore build directory
+build/
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+
+# Ignore Visual Studio files
+*.vcxproj*
+*.sln
+*.vcxproj.filters
+*.vcxproj.user
+*.vs/
+
+# Ignore compiled binaries and libraries
+*.exe
+*.out
+*.a
+*.o
+*.so
+*.dylib
+*.dll
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore Clangd and VSCode settings
+.clangd
+.vscode/
+
+# Ignore MacOS and Linux system files
+.DS_Store
+*.directory
